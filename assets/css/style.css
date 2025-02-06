@@ -118,12 +118,12 @@ p{
 }
 
 #payButton:hover {
-    background-color: #007bff;  /* Darker green on hover */
+    background-color: #35a7bb;  /* Darker green on hover */
     transform: scale(1.1);  /* Slightly larger on hover */
 }
 
 #payButton:active {
-    background-color: #007bff;  /* Even darker green when clicked */
+    background-color: #35a7bb;  /* Even darker green when clicked */
     transform: scale(1);  /* Return to original size */
 }
 
