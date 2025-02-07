@@ -126,6 +126,19 @@ p{
     background-color: #35a7bb;  /* Even darker green when clicked */
     transform: scale(1);  /* Return to original size */
 }
+@media (max-width: 768px) {
+    #payButton {
+        font-size: 24px;  /* Smaller font size for tablets and below */
+        padding: 8px 24px;  /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    #payButton {
+        font-size: 18px;  /* Even smaller font size for mobile devices */
+        padding: 6px 16px;  /* Adjust padding for mobile screens */
+    }
+}
 
 .topbar .email {
     margin-left: 5px;
