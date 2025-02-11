@@ -1880,3 +1880,202 @@ p{
 .single-post .single-post-heading {
     font-size: 30px !important;
 }
+.contact-form{
+    margin-bottom: 40px;
+   
+}/* Media Queries for Responsive Design */
+
+/* For screens smaller than 1200px (e.g., tablets) */
+@media (max-width: 1199.98px) {
+    .topbar .email a,
+    .topbar .social-icons ul li {
+        font-size: 14px;
+    }
+
+    .header .navbar-brand img {
+        max-width: 150px;
+    }
+
+    .banner_content h1 {
+        font-size: 36px;
+    }
+
+    .banner_content p {
+        font-size: 16px;
+    }
+
+    .account-card,
+    .service-card,
+    .loan-card {
+        margin-bottom: 20px;
+    }
+
+    .contact-form,
+    .contact-info {
+        margin-bottom: 30px;
+    }
+}
+
+/* For screens smaller than 992px (e.g., small tablets) */
+@media (max-width: 991.98px) {
+    .topbar .email,
+    .topbar .social-icons {
+        text-align: center;
+    }
+
+    .header .navbar-collapse {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .header .navbar-nav .nav-link {
+        color: #333 !important;
+        padding: 10px 0;
+    }
+
+    .header .navbar-nav .nav-link.signup {
+        color: #fff !important;
+    }
+
+    .banner_content h1 {
+        font-size: 32px;
+    }
+
+    .banner_content p {
+        font-size: 14px;
+    }
+
+    .account-overview .content h2,
+    .services-section .content h2,
+    .loans-section .content h2,
+    .contact-section .content h2 {
+        font-size: 28px;
+    }
+
+    .footer-section .footer-logo img {
+        max-width: 150px;
+    }
+
+    .footer-section .links,
+    .footer-section .icon {
+        margin-bottom: 30px;
+    }
+}
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 767.98px) {
+    .topbar .email,
+    .topbar .social-icons {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .header .navbar-brand img {
+        max-width: 120px;
+    }
+
+    .banner_content h1 {
+        font-size: 28px;
+    }
+
+    .banner_content p {
+        font-size: 14px;
+    }
+
+    .account-overview .content h2,
+    .services-section .content h2,
+    .loans-section .content h2,
+    .contact-section .content h2 {
+        font-size: 24px;
+    }
+
+    .account-card h3,
+    .service-card h3,
+    .loan-card h3 {
+        font-size: 20px;
+    }
+
+    .account-card p,
+    .service-card p,
+    .loan-card p {
+        font-size: 14px;
+    }
+
+    .contact-form .form-control,
+    .contact-info p {
+        font-size: 14px;
+    }
+
+    .footer-section .footer-text {
+        font-size: 14px;
+    }
+
+    .footer-section .links h4,
+    .footer-section .icon h4 {
+        font-size: 18px;
+    }
+
+    .footer-section .links ul li a,
+    .footer-section .icon ul li {
+        font-size: 14px;
+    }
+
+    .copyright p {
+        font-size: 14px;
+    }
+}
+
+/* For screens smaller than 576px (e.g., small mobile devices) */
+@media (max-width: 575.98px) {
+    .banner_content h1 {
+        font-size: 24px;
+    }
+
+    .banner_content p {
+        font-size: 12px;
+    }
+
+    .account-overview .content h2,
+    .services-section .content h2,
+    .loans-section .content h2,
+    .contact-section .content h2 {
+        font-size: 20px;
+    }
+
+    .account-card h3,
+    .service-card h3,
+    .loan-card h3 {
+        font-size: 18px;
+    }
+
+    .account-card p,
+    .service-card p,
+    .loan-card p {
+        font-size: 12px;
+    }
+
+    .contact-form .form-control,
+    .contact-info p {
+        font-size: 12px;
+    }
+
+    .footer-section .footer-text {
+        font-size: 12px;
+    }
+
+    .footer-section .links h4,
+    .footer-section .icon h4 {
+        font-size: 16px;
+    }
+
+    .footer-section .links ul li a,
+    .footer-section .icon ul li {
+        font-size: 12px;
+    }
+
+    .copyright p {
+        font-size: 12px;
+    }
+}
