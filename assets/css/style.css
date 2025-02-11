@@ -2097,6 +2097,60 @@ p {
 
 @media (max-width: 575.98px) {
   .img-fluid {
-    margin-left: 55px;
+    margin-right: 55px;
   }
-}
+}/* Default styles for partner section */
+.partner-section {
+    padding: 50px 0; /* Add padding for spacing */
+  }
+  
+  .partner ul {
+    display: flex;
+    flex-wrap: wrap; /* Allow logos to wrap to the next line */
+    justify-content: center; /* Center logos horizontally */
+    gap: 20px; /* Add spacing between logos */
+  }
+  
+  .partner ul li {
+    list-style: none; /* Remove default list styling */
+    flex: 1 1 150px; /* Flexible sizing for logos */
+    text-align: center; /* Center logos within their container */
+  }
+  
+  .partner ul li img {
+    max-width: 100%; /* Ensure logos are responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Media Query for Tablets (e.g., screens smaller than 992px) */
+  @media (max-width: 991.98px) {
+    .partner ul {
+      gap: 15px; /* Reduce spacing between logos */
+    }
+  
+    .partner ul li {
+      flex: 1 1 120px; /* Adjust logo sizing for tablets */
+    }
+  }
+  
+  /* Media Query for Mobile Devices (e.g., screens smaller than 768px) */
+  @media (max-width: 767.98px) {
+    .partner ul {
+      gap: 10px; /* Further reduce spacing for mobile */
+    }
+  
+    .partner ul li {
+      flex: 1 1 100px; /* Adjust logo sizing for mobile */
+    }
+  }
+  
+  /* Media Query for Small Mobile Devices (e.g., screens smaller than 576px) */
+  @media (max-width: 575.98px) {
+    .partner ul {
+      gap: 5px; /* Minimal spacing for very small screens */
+    }
+  
+    .partner ul li {
+      flex: 1 1 80px; /* Adjust logo sizing for very small screens */
+    }
+  }

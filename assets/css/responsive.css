@@ -1733,6 +1733,7 @@
     padding: 0 60px;
   }
   .manage-section .manage-wrapper {
+
     text-align: center;
   }
   .manage-section .manage-wrapper .content {
@@ -2202,6 +2203,7 @@
     right: 38px;
   }
   .manage-section .manage-wrapper .content img {
+    margin-left: 20px;
     width: 380px;
   }
   .manage-section .manage-content .content .text-size-16 {
