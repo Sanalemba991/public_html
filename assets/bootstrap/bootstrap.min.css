@@ -429,7 +429,7 @@ mark {
 }
 /* Default styles for .img-fluid */
 .img-fluid {
-  margin-left: 25px; /* Default margin for larger screens */
+
   max-width: 100%;
   height: auto;
 }
